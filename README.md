@@ -30,22 +30,21 @@ g++ main.cc test.pb.cc -lprotobuf -o main # 程序编译链接生成可执行文
 ```
 **成功输出：**
 
-![image](./figure/protobuf_test.png)
-
+<img src="./figure/protobuf_test.png" width="70%">
 
 ### Muduo网络库：
-**安装：**切换到`Muduo`文件夹下，执行`depoly_muduo.sh`脚本一键安装
+**安装** 切换到`Muduo`文件夹下，执行`depoly_muduo.sh`脚本一键安装
 ```bash
 cd Muduo/
 sudo bash depoly_muduo.sh
 ```
-**测试：**切换到`Muduo/example/`文件夹下，执行`make`生成`testserver`可执行文件
+**测试** 切换到`Muduo/example/`文件夹下，执行`make`生成`testserver`可执行文件
 ```bash
 cd Muduo/example/
 make
 ./testserver
 ```
-**测试结果：**
+**测试结果**
 
 ![image](./figure/muduo_test.png)
 
